@@ -1,11 +1,17 @@
 body{
     font-size: 17px;
     font-family: 'Roboto';
+    margin: 0;
 }
+
 header{
     /*background-color:#8B0000;*/
     background: linear-gradient(141deg,#008B8B, #8B008B, #00CED1);
     /*background: linear-gradient(141deg,#FF4500,#FFD700,#0000FF);*/
+}
+
+ul.barra-navegacao{
+    margin: 0;
 }
 
 .barra-navegacao li{

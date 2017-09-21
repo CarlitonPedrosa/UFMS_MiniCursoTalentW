@@ -1,0 +1,43 @@
+section{
+    margin-bottom: 100px;
+}
+
+section img{
+    width: 400px;
+    height: 250;
+    border: 1px solid #008B8B;
+    padding: 5px;
+    float: left;
+    margin-right: 30px;
+}
+
+#qtd-pao{
+    width: 40px;
+}
+
+#qtd-queijo{
+    width: 50px;
+}
+
+#btn-calcular{
+    text-shadow: 2px 0px 5px black;
+    padding: 5px 10px;
+    color: #E0FFFF;
+    background: linear-gradient(141deg, #00CED1, #8B008B);
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    float: right;
+}
+
+#btn-calcular:hover{
+    background: linear-gradient(141deg, #E0FFFF, #008B8B);
+}
+
+#p-total{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.clear{
+    clear: both;
+}

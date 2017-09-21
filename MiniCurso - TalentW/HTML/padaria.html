@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>MINICURSO</title>
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="stylesheet" href="../CSS/padaria.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <ul class="barra-navegacao">
+
+            <li><a href="index.html">Início</a></li>
+            <li><a href="" class="ativado">Padaria</a></li>
+            <li><a href="">Calculadora</a></li>
+            <li><a href="">IMC</a></li>
+
+        </ul>
+    </header>
+
+    <div class="conteudo">
+        <article>
+            <section class="pao">
+                <h2>Pão Frânces</h2>
+                <img src="../IMG/pao.jpg" alt="">
+                <p>O Pão Frânces, tambem conhecido como marqueta ou pan de batalha na Bolivia, ou pan francês no sul do Chile
+                    ou ainda pan batido, é um tipo de pão feito de farinha, sal, água e fermento.
+                </p>
+                <p>Valor: R$ 0.30 a unidade</p>
+                <label for="qtd-pao">Informe a quantidade de pão(es)</label>
+                <input type="number" id="qtd-pao" value="0">
+                <div class="clear"></div>
+            </section>
+
+            <section class="queijo">
+                <h2>Queijo Mussarela</h2>
+                <img src="../IMG/queijo.jpg" alt="">
+                <p> A mozarela, muçarela ou Mussarela (em italiano, mozzarella) é uma variedade de queijo de massa filada com
+                    origem na comuna de Aversa, na provincia de Caserta, na região de Campânia, na Itália
+                </p>
+                <p>Valor: R$ 20/kg</p>
+                <label for="qtd-queijo">Informe o peso</label>
+                <input type="text" id="qtd-queijo" value="0">
+                <div class="clear"></div>
+            </section>
+
+            <section class="bolo">
+                <h2>Bolo de cobertura de chocolate</h2>
+                <img src="../IMG/bolo.jpg" alt="">
+                <p> Bolo de chocolate é um bolo simples ou confeitado, que leva chocolate derretido ou em pó, ou ainda cacau
+                    em pó em sua confecção. Os ingredientes mais comuns são o ovo, o leite, a manteiga ou substituto, açúcar
+                    e fermento.
+                </p>
+                <p>Valor: R$ 20/kg</p>
+                <label for="qtd-bolo">Informe a quantidade de fatias</label>
+                <select id="qtd-bolo">
+                        <option value="0">Nenhum</option>
+                        <option value="1">Uma</option>
+                        <option value="2">Duas</option>
+                        </select>
+                        <div class="clear"></div>
+            </section>
+        </article>
+        <section class="total">
+            <h2>Total</h2>
+            <input id="btn-calcular" type="button" value="Calcular">
+            <p>O valor total dos seus produtos foi de R$ 0</p>
+            <div class="clear"></div>
+        </section>
+    </div>
+</body>
+
+</html>
