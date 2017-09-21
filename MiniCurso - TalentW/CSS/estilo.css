@@ -1,0 +1,35 @@
+body{
+    font-size: 17px;
+    font-family: 'Roboto';
+}
+header{
+    /*background-color:#8B0000;*/
+    background: linear-gradient(141deg,#008B8B, #8B008B, #00CED1);
+    /*background: linear-gradient(141deg,#FF4500,#FFD700,#0000FF);*/
+}
+
+.barra-navegacao li{
+    display: inline-block;
+    padding: 12px 20px;
+}
+
+.barra-navegacao a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.barra-navegacao a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+a.ativado{
+    background-color: #00CED1;
+    border: 1px solid white;
+    color: white;
+}
+
+.conteudo{
+    width: 1300px;
+    margin: 0 auto;
+}
