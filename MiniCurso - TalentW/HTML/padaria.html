@@ -55,23 +55,27 @@
                     em pó em sua confecção. Os ingredientes mais comuns são o ovo, o leite, a manteiga ou substituto, açúcar
                     e fermento.
                 </p>
-                <p>Valor: R$ 20/kg</p>
+                <p>Valor: R$ 6/kg</p>
                 <label for="qtd-bolo">Informe a quantidade de fatias</label>
                 <select id="qtd-bolo">
                         <option value="0">Nenhum</option>
                         <option value="1">Uma</option>
                         <option value="2">Duas</option>
                         </select>
-                        <div class="clear"></div>
+                <div class="clear"></div>
             </section>
         </article>
         <section class="total">
             <h2>Total</h2>
             <input id="btn-calcular" type="button" value="Calcular">
-            <p>O valor total dos seus produtos foi de R$ 0</p>
+            <p>O valor total dos seus produtos foi de
+                <span id="p-total"> R$ 0 </span></p>
             <div class="clear"></div>
         </section>
     </div>
+
+    <script src="../JS/padaria.js"></script>
+
 </body>
 
 </html>
