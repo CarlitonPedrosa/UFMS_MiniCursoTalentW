@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lag="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>MINICURSO</title>
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="stylesheet" href="../CSS/calculadora.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <ul class="barra-navegacao">
+
+            <li><a href="index.html">Início</a></li>
+            <li><a href="padaria.html">Padaria</a></li>
+            <li><a href="calculadora.html" class="ativado">Calculadora</a></li>
+            <li><a href="">IMC</a></li>
+
+        </ul>
+
+    </header>
+
+    <div class="calculadora">
+        <input id="visor" type="text">
+
+        <table class="teclado">
+            <tr>
+                <td><button class="numero" id="um" onclick="add1()">1</button></td>
+                <td><button class="numero" id="dois" onclick="add2()">2</button></td>
+                <td><button class="numero" id="tres" onclick="add3"()>3</button></td>
+                <td><button class="sinal" id="soma">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="numero" id="quatro" onclick="add4()">4</button></td>
+                <td><button class="numero" id="cinco" onclick="add5()">5</button></td>
+                <td><button class="numero" id="seis" onclick="add6()">6</button></td>
+                <td><button class="sinal" id="sub">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="numero" id="sete" onclick="add7()">7</button></td>
+                <td><button class="numero" id="oito" onclick="add8()">8</button></td>
+                <td><button class="numero" id="nove" onclick="add9()">9</button></td>
+                <td><button class="sinal" id="mult">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="numero" id="clear">C</button></td>
+                <td><button class="numero" id="zero" onclick="add0()">0</button></td>
+                <td><button class="numero" id="igual">=</button></td>
+                <td><button class="sinal" id="div">/</button></td>
+            </tr>
+        </table>
+
+    </div>
+    <script scr="../JS/calculadora.js"></script>
+</body>
+
+</html>
