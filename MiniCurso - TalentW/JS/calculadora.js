@@ -1,42 +1,50 @@
 var x, y;
 var sinal;
 
-function add1(){
-    document.getElementById("visor").value += 1;
+function add(valor) {
+    visor.value += valor;
 }
 
-function ada2(){
-    document.getElementById("visor").value += 2;
+function limpar() {
+    visor.value = "";
 }
 
-function add3(){
-    document.getElementById("visor").value += 3;
+function funcao(f) {
+    if(sinal == null){
+        x = visor.value;
+    }
+    sinal = f;
+    limpar();
 }
 
-function add4(){
-    document.getElementById("visor").value += 4;
+function clearConsole() {
+    x = null;
+    y = null;
+    sinal = null;
+    limpar();
+    
 }
 
-function add5(){
-    document.getElementById("visor").value += 5;
-}
+function consoleVisor() {
+    y = visor.value;
+    switch (sinal) {
+        case "+":
+            x = visor.value =
+                parseInt(x) + parseInt(y);
+            break;
 
-function add6(){
-    document.getElementById("visor").value += 6;
-}
+        case "-":
+            x = visor.value =
+                parseInt(x) - parseInt(y);
+            break;
 
-function add7(){
-    document.getElementById("visor").value += 7;
-}
+        case "*":
+            x = visor.value =
+                parseInt(x) * parseInt(y);
+            break;
 
-function add8(){
-    document.getElementById("visor").value += 8;
-}
-
-function add9(){
-    document.getElementById("visor").value += 9;
-}
-
-function add0(){
-    document.getElementById("visor").value += 0;
+        case "/":
+            x = visor.value =
+                parseInt(x) / parseInt(y);
+    }
 }

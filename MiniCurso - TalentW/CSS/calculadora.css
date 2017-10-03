@@ -1,3 +1,7 @@
+body {
+    background: url(../IMG/noise.png);
+}
+
 .calculadora{
     /*background: darkslategray;*/
     background: #A9A9A9;

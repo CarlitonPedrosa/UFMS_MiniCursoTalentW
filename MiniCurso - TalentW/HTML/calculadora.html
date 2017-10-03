@@ -28,33 +28,33 @@
 
         <table class="teclado">
             <tr>
-                <td><button class="numero" id="um" onclick="add1()">1</button></td>
-                <td><button class="numero" id="dois" onclick="add2()">2</button></td>
-                <td><button class="numero" id="tres" onclick="add3"()>3</button></td>
-                <td><button class="sinal" id="soma">+</button></td>
+                <td><button class="numero" id="um" onclick="add(1)">1</button></td>
+                <td><button class="numero" id="dois" onclick="add(2)">2</button></td>
+                <td><button class="numero" id="tres" onclick="add(3)">3</button></td>
+                <td><button class="sinal" id="soma" onclick="funcao('+')">+</button></td>
             </tr>
             <tr>
-                <td><button class="numero" id="quatro" onclick="add4()">4</button></td>
-                <td><button class="numero" id="cinco" onclick="add5()">5</button></td>
-                <td><button class="numero" id="seis" onclick="add6()">6</button></td>
-                <td><button class="sinal" id="sub">-</button></td>
+                <td><button class="numero" id="quatro" onclick="add(4)">4</button></td>
+                <td><button class="numero" id="cinco" onclick="add(5)">5</button></td>
+                <td><button class="numero" id="seis" onclick="add(6)">6</button></td>
+                <td><button class="sinal" id="sub" onclick="funcao('-')">-</button></td>
             </tr>
             <tr>
-                <td><button class="numero" id="sete" onclick="add7()">7</button></td>
-                <td><button class="numero" id="oito" onclick="add8()">8</button></td>
-                <td><button class="numero" id="nove" onclick="add9()">9</button></td>
-                <td><button class="sinal" id="mult">*</button></td>
+                <td><button class="numero" id="sete" onclick="add(7)">7</button></td>
+                <td><button class="numero" id="oito" onclick="add(8)">8</button></td>
+                <td><button class="numero" id="nove" onclick="add(9)">9</button></td>
+                <td><button class="sinal" id="mult" onclick="funcao('*')">*</button></td>
             </tr>
             <tr>
-                <td><button class="numero" id="clear">C</button></td>
-                <td><button class="numero" id="zero" onclick="add0()">0</button></td>
-                <td><button class="numero" id="igual">=</button></td>
-                <td><button class="sinal" id="div">/</button></td>
+                <td><button class="numero" id="clear" onclick="clearConsole()">C</button></td>
+                <td><button class="numero" id="zero" onclick="add(0)">0</button></td>
+                <td><button class="numero" id="igual" onclick="consoleVisor()">=</button></td>
+                <td><button class="sinal" id="div" onclick="funcao('/')">/</button></td>
             </tr>
         </table>
 
     </div>
-    <script scr="../JS/calculadora.js"></script>
+    <script src="../JS/calculadora.js"></script>
 </body>
 
 </html>
