@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lag="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINICURSO</title>
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="stylesheet" href="../CSS/estiloIMC.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <ul class="barra-navegacao">
+            <li>
+                <li><a href="padaria.html">Padaria</a></li>
+                <li><a href="padaria.html">Padaria</a></li>
+                <li><a href="calculadora.html">Calculadora</a></li>
+                <li><a class="ativado" href="IMC.html">IMC</a></li>
+                <!-- <li><a href="huebr.html">Hue Hue Br</a>/li> -->
+        </ul>
+
+    </header>
+
+    <hr>
+
+    <div class="head">
+        <h1 id="hh1"><strong>Calculo IMC</strong></h1>
+    </div>
+
+    <div id="titulo1">
+        Meus Pacientes
+    </div>
+
+    <main>
+        <section>
+            <table id="tabelaIMC">
+                <thead>
+                    <th>Nome</th>
+                    <th>Peso(kg)</th>
+                    <th>Altura(m)</th>
+                    <th>IMC</th>
+                    <th>Situação</th>
+                </thead>
+                <tbody>
+                    <tr class="paciente">
+                        <td class="info_nome">Marcio</td>
+                        <td class="info_peso">89</td>
+                        <td class="info_altura">1.89</td>
+                        <td class="info_imc"></td>
+                        <td class="info_situacao"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" class="btn" id="calcIMC" value="Calcular IMC" onclick="calcularIMC()">
+        </section>
+        <hr>
+        <section>
+            <div id="titulo2">
+                <h1>Adicionar Novo Paciente</h1>
+            </div>
+            <form id="form">
+                <fieldset class="campo_nome">
+                    <label><strong>Nome</strong></label>
+                    <input id="campo_nome" type="text" placeholder="Digite o nome do paciente">
+                </fieldset>
+                <fieldset class="campo_peso">
+                    <label><strong>Peso</strong></label>
+                    <input id="campo_peso" type="text" placeholder="Digite o peso do paciente">
+                </fieldset>
+                <fieldset class="campo_altura">
+                    <label><strong>Altura</strong></label>
+                    <input id="campo_altura" type="text" placeholder="Digite a altura do paciente">
+                </fieldset>
+            </form>
+            <input id="addPaciente" type="submit" class="btn" value="Adicionar Paciente">
+            <input id="btn3" class="btn" type="submit" onclick="remPaciente()" value="Remover Paciente">
+        </section>
+    </main>
+    <footer>
+        <div class="foot">
+            <hr>
+            <h4><strong>Carliton Pedrosa Pessoa</strong></h4>
+            <address>UFMS - Universidade Federal de Mato Grosso do Sul</address>
+            <address>Sistemas de Informação</address>
+            <address>RGA 201508030170</address>
+            <hr>
+        </div>
+    </footer>
+</body>
+
+</html>
