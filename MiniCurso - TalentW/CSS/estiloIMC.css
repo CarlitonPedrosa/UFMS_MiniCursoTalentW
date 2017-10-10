@@ -4,6 +4,7 @@ body {
     margin-bottom: 0px;
     padding-bottom: 0px;
     background: whitesmoke;
+    background: url(../IMG/noise.png);    
 }
 
 main {
